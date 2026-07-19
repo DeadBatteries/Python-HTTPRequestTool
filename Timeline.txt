@@ -1,11 +1,29 @@
 18/07
 
-    Issue 01:
+Python3 Based Aplication
 
-        -Initial program functionalities. Includes:
+Status Colors:
+Done: rgb(73, 249, 4)
+Pending: rgb(255, 0, 0) 
 
-            -Make Request
-            -Status Code
-            -Response length in bytes
-            -Encoding
+
+    Initial program functionalities. Includes:
+
+        -Make Request
+        -Status Code
+        -Response length in bytes
+        -Encoding
+
+        -Status: Done rgb(73, 249, 4)
+
+    Issue 001: 
+
+        Error handling on Get_Response function (/modules/request.py) using 
+        request exceptions.
+
+
+        -Status: Pending rgb(255, 0, 0) 
+        
+
+    
             
