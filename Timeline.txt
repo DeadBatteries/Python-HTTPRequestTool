@@ -1,0 +1,11 @@
+18/07
+
+    Issue 01:
+
+        -Initial program functionalities. Includes:
+
+            -Make Request
+            -Status Code
+            -Response length in bytes
+            -Encoding
+            
