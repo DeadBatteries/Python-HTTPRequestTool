@@ -2,10 +2,6 @@
 
 Python3 Based Aplication
 
-Status Colors:
-Done: rgb(73, 249, 4)
-Pending: rgb(255, 0, 0) 
-
 
     Initial program functionalities. Includes:
 
@@ -14,7 +10,7 @@ Pending: rgb(255, 0, 0)
         -Response length in bytes
         -Encoding
 
-        -Status: Done rgb(73, 249, 4)
+        -Status: Done 
 
     Issue 001: 
 
@@ -22,7 +18,22 @@ Pending: rgb(255, 0, 0)
         request exceptions.
 
 
-        -Status: Pending rgb(255, 0, 0) 
+        -Status: Done 
+
+    Issue 002:
+
+        Add User Interation and Interface
+
+            -Actual plan:
+
+                1-Make Request
+                2-Show Headers
+                3-Show Content
+                4-Show Cookies
+                5-Exit 
+
+        -Status: Pending
+
         
 
     
