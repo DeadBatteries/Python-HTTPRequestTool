@@ -26,18 +26,12 @@ __        __   _        ___      _
     
 def appInterface():
 
-    try:
-        appBanner()
+    print("Select option by number: ")
 
-        print("Select option by number: ")
+    print("""
 
-        print("""
+    1-Send Request
+    2-History
+    0-Exit
 
-        1-Send Request
-        0-Exit
-
-        """)
-
-    except:
-        print("a")
-    
+    """)

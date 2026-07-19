@@ -1,28 +1,48 @@
 from modules.Requests.request import get_r
-from modules.interaction.interface import appInterface
+from modules.interaction.interface import appInterface, appBanner
 from utils.selectOptions import select_number
-import sys
+from modules.Requests.History.addToHistory import addToHistory
+from modules.Requests.History.history import history
+from utils.continueQ import continueQ
+from modules.Requests.History.showHistory import showHistory
+from modules.Requests.History.historyOptions import historyOptions
+
+def showBanner():
+    appBanner()
+    
 
 def initApp():
-    try:
 
-        appInterface()
+    while True:
 
-        choice = select_number()
+        try:
 
-        match choice:
+            appInterface()
 
-            case 1:
-                get_r()
-            case 0:
-                print("Returning to the base...Farewell!")
-                sys.exit(0)
+            choice = select_number()
 
-    except TypeError as error:
+            match choice:
 
-        print(error)
+                case 1:
+                    r = get_r()
+                    
+                    if r:
+                        addToHistory(r)
+                        
+                case 2:
+                    
+                    showHistory(history)
+                    historyOptions()
 
+                case 0:
+                    print("Returning to the base...Farewell!")
+                    break
 
+        except TypeError as error:
+
+            print(error)
+
+appBanner()
 initApp()
 
 

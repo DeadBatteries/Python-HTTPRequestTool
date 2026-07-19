@@ -20,20 +20,34 @@ Python3 Based Aplication
 
         -Status: Done 
 
-    Issue 002:
+
+    Issue 0002:
+
+        Make Response Item and History
+
+        Status: Done
+
+    Issue 0003:
+
+        Refactor CLI lifecycle and navigation flow
+
+        Status: Done
+        
+    Issue 004:
 
         Add User Interation and Interface
 
             -Actual plan:
 
-                1-Make Request
-                2-Show Headers
-                3-Show Content
-                4-Show Cookies
-                5-Exit 
+                1-Make Request    
+                2-Show History -|1-Show Headers - interaction by ID                                
+                0-Exit            
 
-        -Status: Pending
+        -Status: Working
 
+    
+
+    
         
 
     
