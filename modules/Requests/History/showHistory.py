@@ -1,9 +1,10 @@
+
 def showHistory(h):
-    print("="*50)
+    print("="*80)
 
     print("RESPONSE HISTORY")
 
-    print("="*50)
+    print("="*80)
     
     if h:
         for item in h:
@@ -15,3 +16,7 @@ URL: {item["url"]}
 STATUS: {item["status"]}
 LENGTH: {item["length"]}
 {"="*80}""")
+
+            
+
+            

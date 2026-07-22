@@ -1,6 +1,5 @@
 from modules.Requests.History.history import history
-from modules.Requests.format_response import format_b
-from modules.Requests.previewHeaders import preview_header
+from modules.Utils.format.format_response import format_b
 
 def addToHistory(r):
 
@@ -13,7 +12,7 @@ def addToHistory(r):
         "id":len(history)+1,
         "url":{r.url},
         "status":r.status_code,
-        "headers":preview_header(r.headers),
+        "headers":r.headers,
         "encoding":r.encoding,
         "length":format_b(len(r.content)),
         "response":r

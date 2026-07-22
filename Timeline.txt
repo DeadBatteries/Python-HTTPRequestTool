@@ -40,10 +40,18 @@ Python3 Based Aplication
             -Actual plan:
 
                 1-Make Request    
-                2-Show History -|1-Show Headers - interaction by ID                                
+                2-Show History -|1-Show Headers - interaction by ID - Done        
+                3-Show Cookies -| Current
+
                 0-Exit            
 
         -Status: Working
+
+    Issue 005:
+
+        Customize CLI with color effects using rich python lib.
+
+        -Status: Pending
 
     
 
